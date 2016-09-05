@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加问题</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/questionnaire.css" rel="stylesheet">
+</head>
+<body>
+<div class="nav">
+    <div class="container">
+        <a href="questionnaires.html" class="btn btn-success"><span class="glyphicon glyphicon-home"></span></a>
+        <a href="questions.html" class="btn btn-success">返回问题列表</a>
+        <span class="pull-right">
+                <a href="javascript:void(0);" class="btn btn-link">用户名:李斌</a>
+                <a href="javascript:void(0);" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-log-out"></span>&nbsp;注销</a>
+            </span>
+    </div>
+</div>
+<div class="content">
+    <div class="container qustion-form">
+        <form action="" class="form">
+            <div class="form-group">
+                <label for="title">问题名称:</label>
+                <input type="text" id="title" class="form-control" placeholder="你想提问的问题">
+            </div>
+            <label>选择类型</label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="danxuan" value="1" checked>单选
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="duoxuan" value="2" checked>多选
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="wenda" value="3" checked>问答
+                </label>
+            </div>
+            <div class="zengjia">
+                <div class="zengjia-nav">
+                    <label>选项</label>
+                    <span class="glyphicon glyphicon-plus-sign zengjia-btn pull-right"></span>
+                </div>
+                <div class="form-group form-inline ">
+                    <input type="text" class="form-control zengjia-input" placeholder="选项">
+                    <a href="#" class="btn btn-default"> 删除</a>
+                </div>
+            </div>
+                <button class="btn btn-success baocun">保存</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

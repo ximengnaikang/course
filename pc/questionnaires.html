@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷列表</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/questionnaire.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <a href="questionnaires.html" class="btn btn-success"><span class="glyphicon glyphicon-home"></span></a>
+            <a href="questionnaire-add.html" class="btn btn-success">添加问卷</a>
+            <a href="questions.html" class="btn btn-primary">题库</a>
+            <span class="pull-right">
+                <a href="javascript:void(0);" class="btn btn-link">用户名:李斌</a>
+                <a href="javascript:void(0);" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-log-out"></span>&nbsp;注销</a>
+            </span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="search">
+                <form action="#"  role="form">
+                    <div class="row">
+                        <div class="form-group col-md-10" >
+                            <input type="text"  class="form-control" placeholder="搜索我的问卷和问卷库">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <button type="submit" class="btn btn-success sousu">搜索</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <div class="row">
+                            <th class="col-md-9">问卷题目列表</th>
+                            <th class="col-md-1">是否发布</th>
+                            <th class="col-md-1">作者</th>
+                            <th class="col-md-1">操作</th>
+                        </div>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!--10个内容-->
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>李四</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>张三</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>上官闻言</td>
+                        <td><a href="javascript:void(0)" class="save">收藏</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>2013181047</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>王五</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>赵钱孙李</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>张三</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>张三</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>未发布</td>
+                        <td>张三</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="questionnaire-setting.html">这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢这节课的效果怎么样呢</a></td>
+                        <td>已发布</td>
+                        <td>张三</td>
+                        <td><a href="javascript:void(0)" class="delete">删除</a></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <ul class="pagination">
+                <li><a href="#">上一页</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">下一页</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <p class="text-center">&copy;2016 课程质量追踪</p>
+        </div>
+    </div>
+</body>
+</html>

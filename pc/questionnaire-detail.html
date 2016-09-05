@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/questionnaire.css" rel="stylesheet">
+</head>
+<body>
+<div class="content">
+    <div class="container qustion-form">
+        <h4 class="success">PHP课后调查问卷</h4>
+        <form action="" class="form">
+            <div class="form-group">
+                <label for="title">1.你的学号:</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <label>2.你认为这节课怎么样?(多选)</label>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 满意
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 还行
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> 不好
+                </label>
+            </div>
+            <label for="">3.你认为checkbox怎么样?</label>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="">还行
+                </label>
+            </div>
+            <div class="checkbox disabled">
+                <label>
+                    <input type="checkbox" value="">不行
+                </label>
+            </div>
+            <label for="">4.你喜欢这个老师吗?</label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                    喜欢
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                    不喜欢
+                </label>
+            </div>
+            <button class="btn btn-success baocun">提交问卷</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.nav{
+    padding-top: 30px;
+}
+.search{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.search .sousu,.baocun{
+    width: 165px;
+}
+table thead{
+    background-color: #F9FAFB;
+}
+.delete{
+    color: #ff0000;
+}
+.qustion-form{
+    margin-top: 30px;
+}
+.zengjia-btn{
+    font-size: 40px;
+    cursor: pointer;
+    color: #5cb85c;
+}
+.zengjia-nav{
+    height: 40px;
+}
+.zengjia-input{
+    width: 70% !important;
+}
+#blankCheckbox{
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    left: 12px;
+    top:3px;
+    width: 18px;
+    height: 18px;
+}
+.pagination{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.q-add-1,.q-add-3{
+    width: 5%;
+}
