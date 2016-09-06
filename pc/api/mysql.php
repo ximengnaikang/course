@@ -13,6 +13,6 @@ class mysql
     private function __construct(){
     }
     static public function connect(){
-        
+
     }
 }
