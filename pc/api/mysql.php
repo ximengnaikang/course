@@ -12,7 +12,7 @@ class mysql
 
     private function __construct(){
     }
-    static public function (){
-
+    static public function connect(){
+        
     }
 }
